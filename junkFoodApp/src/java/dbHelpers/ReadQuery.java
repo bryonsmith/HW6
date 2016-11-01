@@ -73,10 +73,10 @@ public class ReadQuery {
         table += "<tr>";
         
         table += "<th> Junk Food ID </th>";
-        table += "<th> Name </th>";
-        table += "<th> Type </th>";
-        table += "<th> Calories </th>";
-        table += "<th> Rank </th>";
+        table += "<th> Name of Junk Food </th>";
+        table += "<th> Type of Junk Food </th>";
+        table += "<th> Calories in Junk Food </th>";
+        table += "<th> Rank &#40;1 to 10 is the best&#41; </th>";
         table += "<th>  </th>";
         table += "<th>  </th>";
         
@@ -114,13 +114,9 @@ public class ReadQuery {
                 table += "</td>";
                 
                 table += "<td>";
-                table += "<a href=delete?junkFoodID=" + junkFood.getJunkFoodID() + "> Delete </a>";
+                table += "<a href=update?junkFoodID=" + junkFood.getJunkFoodID() + "> Update </a>" + "<a href=delete?junkFoodID=" + junkFood.getJunkFoodID() + "> Delete </a>";
                 table += "</td>";
-                
-                table += "<td>";
-                table += "<a href=add?junkFoodID=" + junkFood.getJunkFoodID() + "> Add </a>";
-                table += "</td>";
-                
+                                
                 table += "</tr>";
                 
             }
