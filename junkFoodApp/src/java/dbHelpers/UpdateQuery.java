@@ -61,6 +61,7 @@ public class UpdateQuery {
             ps.setString(2, junkFood.getJunkFoodType());
             ps.setInt(3, junkFood.getCalories());
             ps.setInt(4, junkFood.getJunkFoodRank());
+            ps.setInt(5, junkFood.getJunkFoodID());
             
             ps.executeUpdate();
             

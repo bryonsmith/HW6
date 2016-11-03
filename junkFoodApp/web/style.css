@@ -10,7 +10,7 @@ table.read{
 }
 
 input[readonly]{
-    background-color: grey;
+    background-color: #DCDCDC;
 }
 
 table.read th, td{
