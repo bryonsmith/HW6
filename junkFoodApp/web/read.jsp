@@ -12,7 +12,7 @@
     <% String table = (String) request.getAttribute("table"); %>
     
     <body>
-        <h1>My Favorite Junk Food </h1>
+        <h1> My Favorite Junk Food </h1>
         
         <%= table %>
         

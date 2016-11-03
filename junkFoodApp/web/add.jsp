@@ -12,8 +12,8 @@
         
         <form name="addForm" action="addJunkFood" method="get">
         
-        <table class="table2">
-                        <th colspan="2">Add a New Junk Food:</th>
+        <table class="add">
+            <th>Add a New Junk Food:</th><th></th>
                         <tr>
                             <td>Junk Food Name:</td>
                             <td><input type="text" name="name" value=""/></td>
@@ -37,9 +37,9 @@
             </table>
             
             <br>
-
-            <input type="submit" name="clear" value="Clear" />
-            <input type="submit" name="submit" value="Submit" />
+            <button type="reset" value="Reset"> Reset </button>
+            <button type="submit" value="Submit"> Submit </button>
+            
             
         </form>
         

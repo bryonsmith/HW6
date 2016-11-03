@@ -68,7 +68,7 @@ public class ReadQuery {
         
         String table = "";
         
-        table += "<table class = 'table1'>";
+        table += "<table class = 'read'>";
         
         table += "<tr>";
         
@@ -114,7 +114,11 @@ public class ReadQuery {
                 table += "</td>";
                 
                 table += "<td>";
-                table += "<a href=update?junkFoodID=" + junkFood.getJunkFoodID() + "> Update </a>" + "<a href=delete?junkFoodID=" + junkFood.getJunkFoodID() + "> Delete </a>";
+                table += "<a href=update?junkFoodID=" + junkFood.getJunkFoodID() + "> Update </a>";
+                table += "</td>";
+                
+                table += "<td>";
+                table += "<a href=delete?junkFoodID=" + junkFood.getJunkFoodID() + "> Delete </a>";
                 table += "</td>";
                                 
                 table += "</tr>";

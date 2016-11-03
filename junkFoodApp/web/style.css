@@ -2,32 +2,32 @@ body {
     background: #D2B48C;
 }
 
-table.table1{
+table.read{
     border: 2px solid white;
     border-collapse: collapse;
-    width: 80%;
+    width: 100%;
 
 }
 
 input[readonly]{
-    background-color: #F08080;
+    background-color: grey;
 }
 
-table.table1 th, td{
+table.read th, td{
     vertical-align: middle;
     text-align: center;
     padding: 15px;
 }
 
-table.table1 td:hover{
+table.read td:hover{
     background-color: #CCCCCC;
 }
 
-table.table1 tr:nth-child(even){
+table.read tr:nth-child(even){
     background-color: #F2F2F2;
 }
 
-table.table1 th{
+table.read th{
     background-color: #FFFF99;
     color: #696969;
     height: 30px;
@@ -35,30 +35,30 @@ table.table1 th{
 
 }
 
-table.table1 td{
+table.read td{
     background-color: #F08080;
     color: white;
     border: 3px solid white;
 }
 
-table.table2{
+table.add{
     border: 2px solid white;
     border-collapse: collapse;
-    width: 80%;
+    width: 100%;
 
 }
 
-table.table2 th, td{
+table.add th, td{
     vertical-align: middle;
     text-align: center;
     padding: 15px;
 }
 
-table.table2 tr:nth-child(even){
+table.add tr:nth-child(even){
     background-color: #F2F2F2;
 }
 
-table.table2 th{
+table.add th{
     background-color: #FFFF99;
     color: #696969;
     height: 30px;
@@ -66,7 +66,7 @@ table.table2 th{
 
 }
 
-table.table2 td{
+table.add td{
     background-color: #F08080;
     color: white;
     border: 3px solid white;
@@ -75,7 +75,7 @@ table.table2 td{
 table.update{
     border: 2px solid white;
     border-collapse: collapse;
-    width: 80%;
+    width: 100%;
 
 }
 
@@ -109,7 +109,6 @@ a{
 
 
 form{
-
     margin: auto;
     position: relative;
     width: 400px;
@@ -118,7 +117,11 @@ form{
     border: 4 px solid white;
     border-radius: 10px;
     padding: 10px;
-    border: inset 1px solid powderblue;
+}
+
+h1{
+    text-align: center;
+    
 }
 h2{
     text-align: center;
@@ -185,7 +188,6 @@ h2{
     margin: 0 0.4em 0 -0.4em;
 }
 
-/*Win IE browsers - hide from Mac IE\*/
 * html .navlist { height: 1%; }
 
 * html .navlist li
