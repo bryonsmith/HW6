@@ -3,9 +3,9 @@ body {
 }
 
 table.table1{
-    border: 8px solid white;
+    border: 2px solid white;
     border-collapse: collapse;
-    width: 100%;
+    width: 80%;
 
 }
 
@@ -42,9 +42,9 @@ table.table1 td{
 }
 
 table.table2{
-    border: 8px solid white;
+    border: 2px solid white;
     border-collapse: collapse;
-    width: 100%;
+    width: 80%;
 
 }
 
@@ -71,6 +71,38 @@ table.table2 td{
     color: white;
     border: 3px solid white;
 }
+
+table.update{
+    border: 2px solid white;
+    border-collapse: collapse;
+    width: 80%;
+
+}
+
+table.update th, td{
+    vertical-align: middle;
+    text-align: center;
+    padding: 15px;
+}
+
+table.update tr:nth-child(even){
+    background-color: #F2F2F2;
+}
+
+table.update th{
+    background-color: #FFFF99;
+    color: #696969;
+    height: 30px;
+    font-size: 15pt;
+
+}
+
+table.update td{
+    background-color: #F08080;
+    color: white;
+    border: 3px solid white;
+}
+
 a{
     color: #696969;
 }
@@ -121,9 +153,6 @@ h2{
     padding-top: 50px;
     padding-left: 25px;
 }
-
-/*Fat Erik's Pipelist*/
-/*http://css.maxdesign.com.au/listamatic/horizontal32.htm */
 
 .navcontainer { 
     margin-left: 30px; 
