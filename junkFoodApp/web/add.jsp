@@ -8,12 +8,21 @@
         <title> Add a New Favorite Junk Food </title>
     </head>
     <body>
-        <h1>Add a New Favorite Junk Food</h1>
-        
-        <form name="addForm" action="addJunkFood" method="get">
-        
-        <table class="add">
-            <th>Add a New Junk Food:</th><th></th>
+
+        <div class="wrap"> <!--div to hold all other div WRAP DIV -->
+
+            <%@ include file="includes/header.jsp" %> <!--HEADER-->
+
+            <%@ include file="includes/menu.jsp" %> <!--MENU-->
+
+            <div class="main"> <!-- MAIN div -->
+
+                <h1>Add a New Favorite Junk Food</h1>
+
+                <form name="addForm" action="addJunkFood" method="get">
+
+                    <table class="add">
+                        <th>Add a New Junk Food:</th><th></th>
                         <tr>
                             <td>Junk Food Name:</td>
                             <td><input type="text" name="name" value=""/></td>
@@ -28,20 +37,26 @@
                             <td>Calories:</td>
                             <td><input type="text" name="calories" value=""/></td>
                         </tr>
-                        
+
                         <tr>
                             <td>Rank:</td>
                             <td><input type="text" name="rank" value=""/></td>
                         </tr>
 
-            </table>
-            
-            <br>
-            <button type="reset" value="Reset"> Reset </button>
-            <button type="submit" value="Submit"> Submit </button>
-            
-            
-        </form>
-        
+                    </table>
+
+                    <br>
+                    <button type="reset" value="Reset"> Reset </button>
+                    <button type="submit" value="Submit"> Submit </button>
+
+
+                </form>
+
+            </div>
+
+            <%@ include file="includes/footer.jsp" %> <!--FOOTER-->
+
+        </div>  <!--close WRAP DIV-->
+
     </body>
 </html>
