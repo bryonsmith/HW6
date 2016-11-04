@@ -54,10 +54,10 @@ public class SearchQuery {
     public void doSearch(String junkFoodName){
     
         try {
-            String query = "SELECT * FROM junkFood WHERE junkFoodName LIKE ?";
+            String query = "SELECT * FROM junkFood WHERE UPPER (junkFoodName) LIKE ? ORDER BY junkFoodID DESC";
             
             PreparedStatement ps = conn.prepareStatement(query);
-            ps.setString(1, "%" + junkFoodName + "%");
+            ps.setString(1, "%" + junkFoodName.toUpperCase() + "%");
             this.results = ps.executeQuery();
         } catch (SQLException ex) {
             Logger.getLogger(SearchQuery.class.getName()).log(Level.SEVERE, null, ex);
