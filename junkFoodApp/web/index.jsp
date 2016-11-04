@@ -11,6 +11,8 @@
     <body>
         <h1>My Favorite Junk Food</h1>
         
-        <a href="read">View Junk Food List</a>
+        <a href="read">View Favorite Junk Food</a>
+        <br> <br>
+        <a href="search.jsp">Search Favorite Junk Food</a>
     </body>
 </html>

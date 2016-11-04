@@ -20,5 +20,11 @@
         
         <a href ="add"> Add a New Favorite Junk Food</a>
         
+        <br> <br>
+        
+        <a href="search.jsp">Search Favorite Junk Food</a>
+        
+        <br> <br>
+        
     </body>
 </html>
