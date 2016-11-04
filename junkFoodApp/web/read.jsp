@@ -19,19 +19,10 @@
         
             <div class="main"> <!-- MAIN div -->
         
-                <h1> My Favorite Junk Food </h1>
+                <h1> List of My Favorite Junk Food </h1>
         
                 <%= table %>
         
-                <br><br>
-        
-                <a href ="add"> Add a New Favorite Junk Food</a>
-        
-                <br> <br>
-        
-                <a href="search.jsp">Search Favorite Junk Food</a>
-        
-                <br> <br>
             </div>
         
             <%@ include file="includes/footer.jsp" %> <!--FOOTER-->

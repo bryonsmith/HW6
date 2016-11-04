@@ -211,3 +211,12 @@ h2{
     text-align: left;
     padding: 25px;
 }
+
+.search{
+    background-color: #F08080;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    border: 3px solid white;
+    margin-top: 25 px;
+}

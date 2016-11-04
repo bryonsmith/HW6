@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="style" type="text/css" href="style.css"/>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
         <title>Search Favorite Junk Food</title>
     </head>
     <body>
@@ -15,19 +15,20 @@
             <%@ include file="includes/menu.jsp" %> <!--MENU-->
 
             <div class="main"> <!-- MAIN div -->
-
-                <h1>Search Favorite Junk Food</h1>
-
                 <form name="searchForm" action="search" method="get">
+                    <table class="add">
 
-                    <input type="text" name="searchVal" value="" />
+                        <th> Search Favorite Junk Food: </th><th></th>
 
-                    <br>
+                        <th><input type="text" name="searchVal" value="" /></th>
 
-                    <input type="submit" name="submit" value="Search" />
+                        <br>
 
+                        <th><input type="submit" name="submit" value="Search" /></th>
+                        <tr>
+
+                    </table>
                 </form>
-
             </div>
 
             <%@ include file="includes/footer.jsp" %> <!--FOOTER-->
